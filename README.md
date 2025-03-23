@@ -5,7 +5,8 @@ A comprehensive Learning Management System built with the MERN stack (MongoDB, E
 ## 🌟 Live Demo
 
 [View Live Demo](https://lsm-mern-m1ma.vercel.app/)
-https://github.com/sakshamagarwalm2/LSM-MERN/blob/main/Public/Screenshot%202025-03-23%20152422.png
+
+![alt text](https://github.com/sakshamagarwalm2/LSM-MERN/blob/main/Public/Screenshot%202025-03-23%20152422.png)
 
 ## 🔥 Features
 
