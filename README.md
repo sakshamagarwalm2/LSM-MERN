@@ -18,6 +18,9 @@ A comprehensive Learning Management System built with the MERN stack (MongoDB, E
 - Secure payment integration with PayPal
 - Interactive learning interface
 
+![alt text](https://github.com/sakshamagarwalm2/LSM-MERN/blob/main/Public/Screenshot%202025-03-23%20152502.png)
+![alt text](https://github.com/sakshamagarwalm2/LSM-MERN/blob/main/Public/Screenshot%202025-03-23%20152439.png)
+
 ### For Instructors
 - Create and manage courses
 - Upload course content and videos
@@ -25,6 +28,8 @@ A comprehensive Learning Management System built with the MERN stack (MongoDB, E
 - Manage enrollments
 - Analytics dashboard
 - Content management with Cloudinary
+
+![alt text](https://github.com/sakshamagarwalm2/LSM-MERN/blob/main/Public/Screenshot%202025-03-23%20152517.png)
 
 ## 🛠️ Tech Stack
 
