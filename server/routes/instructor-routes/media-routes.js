@@ -7,7 +7,7 @@ const {
 
 const router = express.Router();
 
-const upload = multer({ dest: "uploads/" });
+const upload = multer({ dest: "/tmp/uploads/" });
 
 router.post("/upload", upload.single("file"), async (req, res) => {
   try {
