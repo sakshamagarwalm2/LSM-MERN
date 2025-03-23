@@ -83,12 +83,14 @@ export async function mediaBulkUploadService(formData, onProgressCallback) {
 }
 
 export async function fetchStudentViewCourseListService(query) {
+  // console.log("hit__fetchStudentViewCourseListService");
   const { data } = await axiosInstance.get(`/student/course/get?${query}`);
 
   return data;
 }
 
 export async function fetchStudentViewCourseDetailsService(courseId) {
+  // console.log("hit__fetchStudentViewCourseDetailsService");
   const { data } = await axiosInstance.get(
     `/student/course/get/details/${courseId}`
   );
@@ -97,9 +99,11 @@ export async function fetchStudentViewCourseDetailsService(courseId) {
 }
 
 export async function checkCoursePurchaseInfoService(courseId, studentId) {
+  // console.log("hit__3");
   const { data } = await axiosInstance.get(
     `/student/course/purchase-info/${courseId}/${studentId}`
   );
+  // console.log("gotres_checkcourse"+data);
 
   return data;
 }

@@ -16,6 +16,7 @@ import { StudentContext } from "@/context/student-context";
 import {
   checkCoursePurchaseInfoService,
   fetchStudentViewCourseListService,
+  fetchStudentViewCourseDetailsService
 } from "@/services";
 import { ArrowUpDownIcon } from "lucide-react";
 import { useContext, useEffect, useState } from "react";
@@ -88,18 +89,17 @@ function StudentViewCoursesPage() {
   }
 
   async function handleCourseNavigate(getCurrentCourseId) {
-    const response = await checkCoursePurchaseInfoService(
+    // console.log("hitc__c")
+    const response = await fetchStudentViewCourseDetailsService(
       getCurrentCourseId,
-      auth?.user?._id
+      auth?.user?._id,
     );
 
+    // console.log("Course: "+ response)
+
     if (response?.success) {
-      if (response?.data) {
-        navigate(`/course-progress/${getCurrentCourseId}`);
-      } else {
         navigate(`/course/details/${getCurrentCourseId}`);
-      }
-    }
+          }
   }
 
   useEffect(() => {

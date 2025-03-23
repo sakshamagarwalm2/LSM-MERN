@@ -27,7 +27,7 @@ app.use(express.json());
 //database connection
 mongoose
   .connect(MONGO_URI)
-  .then(() => console.log("mongodb is connected"))
+  .then(() => console.log("mongodb is connected "))
   .catch((e) => console.log(e));
 
 //routes configuration
